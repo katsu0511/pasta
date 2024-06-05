@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasta</title>
+  <link rel="icon" href="./img/pasta.ico">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <div class="bars">
+    <div class="volume">
+      <div class="volume_tag">Volume</div>
+      <div id="volume_minus">-</div>
+      <div id="volume_bar"></div>
+      <div id="current_volume"></div>
+      <div id="volume_plus">+</div>
+    </div>
+    <div class="time">
+      <div id="play_time">0:00</div>
+      <div id="time_bar"></div>
+      <div id="current_time"></div>
+      <div id="left_time"></div>
+    </div>
+  </div>
+  <div class="inputs">
+    <input type="button" id="back" class="button disabled" value="&lt;&lt;" disabled>
+    <input type="button" id="pause" class="button pause disabled" value="||" disabled>
+    <input type="button" id="play" class="button play enabled" value="&gt;">
+    <input type="button" id="forward" class="button disabled" value="&gt;&gt;" disabled>
+  </div>
+  <div id="pasta">Pasta</div>
+</body>
+</html>
